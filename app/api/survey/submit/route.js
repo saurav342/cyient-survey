@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server';
-import { getSurveyConfig } from '../../../lib/surveys';
-import { validateSurveyResponse } from '../../../lib/validation';
+import { getSurveyConfig } from '@/lib/surveys';
+import { validateSurveyResponse } from '@/lib/validation';
 
 export async function POST(request) {
   try {

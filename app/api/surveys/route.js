@@ -1,5 +1,5 @@
 import { NextResponse } from 'next/server';
-import { getAllSurveyTypes } from '../../../lib/surveys';
+import { getAllSurveyTypes } from '@/lib/surveys';
 
 export async function GET(request) {
   try {

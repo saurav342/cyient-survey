@@ -1,5 +1,5 @@
 import { NextResponse } from 'next/server';
-import { getSurveyConfig } from '../../../../../lib/surveys';
+import { getSurveyConfig } from '@/lib/surveys';
 
 export async function GET(request, { params }) {
   try {
