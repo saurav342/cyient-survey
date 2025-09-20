@@ -1,0 +1,125 @@
+{
+  "campusHiringSample": {
+    "surveyId": "campus_hiring_feedback",
+    "surveyTitle": "Campus Hiring Feedback",
+    "responses": {
+      "q1": 5,
+      "q2": "Social media",
+      "q3": "Yes",
+      "q4": "",
+      "q5": ["Company booth", "Recruiter interaction", "Pre-placement talk"],
+      "q6": ["Technical talk", "Q&A session"],
+      "q7": 4,
+      "q8": "The event was well-organized and informative. The recruiters were very helpful and answered all our questions clearly. The technical talk was particularly engaging.",
+      "q9": "Yes"
+    },
+    "submittedAt": "2024-01-15T10:30:00.000Z"
+  },
+  "virtualWebinarSample": {
+    "surveyId": "virtual_webinar_feedback",
+    "surveyTitle": "Virtual Webinar Feedback",
+    "responses": {
+      "q1": 4,
+      "q2": "Just right",
+      "q3": ["Good audio", "Good video", "Chat moderation"],
+      "q4": "The AI and Machine Learning session",
+      "q5": 5,
+      "q6": "Afternoon",
+      "q7": "Would love to see more sessions on cloud architecture and DevOps best practices.",
+      "q8": "Yes"
+    },
+    "submittedAt": "2024-01-15T14:45:00.000Z"
+  },
+  "trainingWorkshopSample": {
+    "surveyId": "training_workshop_feedback",
+    "surveyTitle": "Training Workshop Feedback",
+    "responses": {
+      "q1": 5,
+      "q2": "Hands-on lab",
+      "q3": 5,
+      "q4": ["Slides", "Code samples", "VM images", "Cheat sheets"],
+      "q5": "Perfect pace - not too fast, not too slow",
+      "q6": ["Coding", "Cloud", "Security"],
+      "q7": "The instructor was excellent and the hands-on approach really helped solidify the concepts. More time for Q&A would be beneficial.",
+      "q8": "Yes"
+    },
+    "submittedAt": "2024-01-15T16:20:00.000Z"
+  },
+  "apiSuccessResponse": {
+    "success": true,
+    "message": "Survey submitted successfully",
+    "submissionId": "SUB-1705312200000-abc123def",
+    "surveyId": "campus_hiring_feedback",
+    "surveyTitle": "Campus Hiring Feedback",
+    "submittedAt": "2024-01-15T10:30:00.000Z",
+    "responsesCount": 9,
+    "data": {
+      "surveyId": "campus_hiring_feedback",
+      "surveyTitle": "Campus Hiring Feedback",
+      "responses": {
+        "q1": 5,
+        "q2": "Social media",
+        "q3": "Yes",
+        "q4": "",
+        "q5": ["Company booth", "Recruiter interaction", "Pre-placement talk"],
+        "q6": ["Technical talk", "Q&A session"],
+        "q7": 4,
+        "q8": "The event was well-organized and informative...",
+        "q9": "Yes"
+      },
+      "submittedAt": "2024-01-15T10:30:00.000Z"
+    }
+  },
+  "apiErrorResponse": {
+    "success": false,
+    "error": "Validation failed",
+    "errors": {
+      "q1": "Overall satisfaction rating is required",
+      "q2": "Please select how you heard about our campus drive",
+      "q7": "Please rate the clarity of role communication"
+    }
+  },
+  "emailCopyResponse": {
+    "success": true,
+    "message": "Email copy sent successfully",
+    "emailId": "EMAIL-1705312200000-def456jkl",
+    "recipient": "student@university.edu",
+    "surveyId": "campus_hiring_feedback",
+    "sentAt": "2024-01-15T10:30:00.000Z",
+    "subject": "Your Cyient Survey Responses - campus_hiring_feedback",
+    "preview": "Dear participant, thank you for your feedback. Here are your survey responses for campus_hiring_feedback..."
+  },
+  "surveysListResponse": {
+    "success": true,
+    "data": [
+      {
+        "id": "campus_hiring_feedback",
+        "title": "Campus Hiring Feedback",
+        "description": "Feedback on campus recruitment events and interactions with students.",
+        "icon": "GraduationCap",
+        "color": "blue",
+        "questionsCount": 9,
+        "requiredQuestionsCount": 6
+      },
+      {
+        "id": "onsite_event_feedback",
+        "title": "Onsite Event Feedback",
+        "description": "Feedback from attendees who visited an in-person company event.",
+        "icon": "MapPin",
+        "color": "teal",
+        "questionsCount": 9,
+        "requiredQuestionsCount": 5
+      },
+      {
+        "id": "virtual_webinar_feedback",
+        "title": "Virtual Webinar Feedback",
+        "description": "Feedback for webinars, virtual talks and online panels.",
+        "icon": "Monitor",
+        "color": "purple",
+        "questionsCount": 8,
+        "requiredQuestionsCount": 4
+      }
+    ],
+    "count": 8
+  }
+}
